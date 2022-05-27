@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Auto Bath</title>
+     <!-- 반응형 웹 만들기 -->
+    <!-- 2. 데스크탑용 외부 스타일시트 적용 -->
+    <link rel="stylesheet" href="./index.css" media="(min-width:600px)">
+    <link rel="stylesheet" href="./dark-mode-button.css" media="(min-width:600px)">
+    
+</head>
+<body>
+
+    <div id="page">
+
+        <header>
+			<p style="font-size: 30px; font-weight: bold; color: indianred; text-shadow: 1px 1px 1.2px midnightblightblue;"> < My Home Auto Bath > </p>
+
+            <div id="top_menu">
+             <a href="./TEMPER.html">
+				<p><span style="border-radius: 5em; padding: 0.6em 1em; background: #F9F9F9; box-shadow: 1px 2px 10px rgba(0,0,0,0.2);  margin-left: 5px;">TEMPERATURE</span></p>
+             </a>|
+             <a href="./WATER.html">
+                <p><span style="border-radius: 5em; padding: 0.6em 1em; background: #F9F9F9; box-shadow: 1px 2px 10px rgba(0,0,0,0.2);  margin-left: 5px;"> WATER  LEVEL </span></p>
+             </a>
+
+            </div>
+
+            <nav>
+                <ul>
+                   	<li>
+                   	<p><span style="border-radius: 0 15px 15px 0; border-left: inset; padding: 0.6em; background: #EBEEF0;">1조 김혜민, 장문석</span></p>
+					</li>	
+                </ul>
+            </nav>
+        </header>
+	
+		<label class="dark-mode-button">        
+			<input id="check" type="checkbox">
+			<span  class="onoff-switch">
+			</span> 
+		</label>
+    
+        <footer>
+	        <img src="./bath.jpg" alt="address">	
+        
+			<label class="state">
+			    <iframe  src="state.php" for="check"
+				 width="90" height="150" frameborder="0" align="left" scrolling="no"
+	  			>
+	  		</label>
+
+        </footer >
+    </div>    
+</body>
+</html>
